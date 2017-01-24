@@ -31,6 +31,11 @@ const config = {
   devtool: 'inline-source-map',
   resolveLoader: {
     modules: ['node_modules', `${__dirname}/node_modules`],
+  },
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.common.js'
+    }
   }
 };
 

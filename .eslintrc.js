@@ -1,6 +1,10 @@
 module.exports = {
     "extends": "airbnb-base",
     "plugins": [
-        "import"
-    ]
+        "import",
+        "vue"
+    ],
+    rules: {
+      'vue/jsx-uses-vars': 2,
+    },
 };
