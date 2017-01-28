@@ -16,11 +16,13 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-vue": "^1.0.0",
     "node-sass": "^4.3.0",
+    "style-loader": "^0.13.1",
     "vue-loader": "^10.0.2",
     "vue-template-compiler": "^2.1.10",
     "webpack": "2.2"
   },
   "dependencies": {
+    "normalize.css": "^5.0.0",
     "vue": "^2.1.10"
   }
 }
