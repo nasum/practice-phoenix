@@ -1,5 +1,6 @@
 import normalize from "normalize.css";
 import Vue from "vue";
+import myHeader from "./components/myHeader.vue"
 
 window.onload = () => {
   normalize
@@ -7,6 +8,9 @@ window.onload = () => {
     el: "#app",
     data: {
       message: 'Hello Vue!'
+    },
+    components: {
+      myHeader
     }
   })
 }
